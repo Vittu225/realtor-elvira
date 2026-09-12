@@ -1,0 +1,54 @@
+:root {
+  --ink: #111111;
+  --ink-muted: #5c5854;
+  --paper: #ffffff;
+  --paper-warm: #f6f3ee;
+  --paper-sand: #efe8dc;
+  --gold: #c5a880;
+  --gold-deep: #b39468;
+  --line: rgba(17, 17, 17, 0.08);
+  --telegram: #0088cc;
+  --whatsapp: #25d366;
+  --shadow: 0 24px 60px rgba(17, 17, 17, 0.08);
+  --radius: 20px;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Manrope', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+::selection {
+  background: rgba(197, 168, 128, 0.28);
+}
