@@ -3,7 +3,7 @@ import styles from './Contacts.module.css'
 
 const telegramUrl = 'https://t.me/elya2272'
 const whatsappUrl =
-  'https://wa.me/79991234567?text=' +
+  'https://wa.me/79275845875?text=' +
   encodeURIComponent('Здравствуйте, Эльвира! Хочу проконсультироваться по недвижимости.')
 
 function Contacts() {

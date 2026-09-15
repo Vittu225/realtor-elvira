@@ -40,7 +40,7 @@ function Hero() {
             animate="show"
             custom={0.05}
           >
-            Частный риелтор · Астрахань
+            Эксперт в сфере недвижимости · Астрахань
           </motion.p>
 
           <motion.h1
