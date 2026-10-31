@@ -66,6 +66,10 @@
   background: var(--whatsapp);
 }
 
+.instagram {
+  background: #E1306C;
+}
+
 .icon {
   width: 22px;
   height: 22px;
