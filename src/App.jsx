@@ -1,6 +1,6 @@
 import Hero from './components/Hero'
 import Services from './components/Services'
-import Reviews from './components/Reviews'
+// import Reviews from './components/Reviews'
 import Contacts from './components/Contacts'
 import styles from './App.module.css'
 import Certificates from './components/Certificates'
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <Certificates />
       <Services />
-      <Reviews />
+      {/* <Reviews /> */}
       <Contacts />
     </div>
   )
